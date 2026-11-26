@@ -1,0 +1,307 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Unai Sayago — Currículum</title>
+<style>
+  @font-face {
+    font-family: "Archivo Cv";
+    src: url("../node_modules/@fontsource-variable/archivo/files/archivo-latin-wght-normal.woff2") format("woff2");
+    font-weight: 100 900;
+    font-display: block;
+  }
+
+  @page {
+    size: A4;
+    margin: 11mm 15mm 10mm;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body { margin: 0; padding: 0; }
+
+  body {
+    font-family: "Archivo Cv", "Segoe UI", Arial, sans-serif;
+    font-size: 9pt;
+    line-height: 1.3;
+    color: #12161b;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  a { color: #12161b; text-decoration: none; }
+
+  .head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10mm;
+    padding-bottom: 4mm;
+    border-bottom: 1.4pt solid #12161b;
+  }
+
+  .head h1 {
+    margin: 0;
+    font-size: 22pt;
+    line-height: 1;
+    letter-spacing: -0.03em;
+    font-weight: 700;
+  }
+
+  .role {
+    margin: 2.4mm 0 0;
+    font-size: 10.5pt;
+    font-weight: 500;
+    color: #3a424b;
+  }
+
+  .contact {
+    margin: 3mm 0 0;
+    font-size: 8.6pt;
+    color: #4a535d;
+    line-height: 1.5;
+  }
+
+  .contact span { white-space: nowrap; }
+
+  .photo {
+    flex: 0 0 auto;
+    width: 27mm;
+    height: 34mm;
+    border-radius: 1.5mm;
+    overflow: hidden;
+    background: #e9ece9;
+  }
+
+  .photo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 20%;
+    transform: scale(1.28);
+    transform-origin: 50% 16%;
+  }
+
+  section { margin-top: 2.9mm; }
+
+  h2 {
+    margin: 0 0 1.1mm;
+    font-size: 8.2pt;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #12161b;
+    border-bottom: 0.5pt solid #c9cec9;
+    padding-bottom: 1mm;
+  }
+
+  p { margin: 0; }
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 6mm;
+  }
+
+  .item { margin-bottom: 1.7mm; }
+  .item:last-child { margin-bottom: 0; }
+
+  .item .title { font-weight: 600; }
+  .item .meta { font-size: 8.4pt; color: #5c6672; white-space: nowrap; }
+  .item .desc { color: #2a3138; }
+
+  ul.plain { margin: 0; padding: 0; list-style: none; }
+
+  ul.plain li { margin-bottom: 1.2mm; }
+  ul.plain li:last-child { margin-bottom: 0; }
+
+  .skills div { display: flex; gap: 3mm; margin-bottom: 1.1mm; }
+  .skills dt {
+    flex: 0 0 23mm;
+    font-weight: 600;
+    font-size: 8.6pt;
+  }
+  .skills dd { margin: 0; color: #2a3138; }
+
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 8mm;
+    font-size: 7.9pt;
+  }
+
+  .foot {
+    margin-top: 5mm;
+    padding-top: 2mm;
+    border-top: 0.5pt solid #c9cec9;
+    font-size: 7.8pt;
+    color: #6b747e;
+  }
+
+  @media print {
+    .photo { break-inside: avoid; }
+    section { break-inside: avoid; }
+  }
+
+  /* En pantalla se simulan los márgenes del papel para revisarlo igual que se imprime. */
+  @media screen {
+    body {
+      background: #eeefec;
+      padding: 11mm 15mm;
+      max-width: 210mm;
+      margin: 0 auto;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header class="head">
+  <div>
+    <h1>Unai Sayago</h1>
+    <p class="role">Desarrollador de software junior · Backend, Android e IA aplicada</p>
+    <p class="contact">
+      <span>unai.sayago@gmail.com</span> · <span>625 668 354</span> · <span>Zaragoza, España</span><br>
+      <span>github.com/Virus34558</span> · <span>linkedin.com/in/unai-sayago-sanz-199285248</span>
+    </p>
+  </div>
+  <div class="photo">
+    <img src="./foto.jpg" alt="Unai Sayago">
+  </div>
+</header>
+
+<section>
+  <h2>Perfil</h2>
+  <p>Desarrollador junior con formación en Desarrollo de Aplicaciones Multiplataforma (DAM) y Sistemas Microinformáticos y Redes (SMR). Backend con Python, FastAPI y Java; Android con Kotlin y Jetpack Compose. He desplegado en producción un sistema de incidencias con 175 pruebas automatizadas y 3.796 líneas de código. Disponible de inmediato.</p>
+</section>
+
+<section>
+  <h2>Experiencia profesional</h2>
+
+  <div class="item">
+    <div class="row">
+      <span class="title">Desarrollador de Aplicaciones Multiplataforma · IDEA Consulting</span>
+      <span class="meta">Zaragoza · 2026</span>
+    </div>
+    <p class="desc">Desarrollo de aplicaciones y uso de herramientas de IA en el flujo de trabajo.</p>
+  </div>
+
+  <div class="item">
+    <div class="row">
+      <span class="title">Técnico de Sistemas · ZLC</span>
+      <span class="meta">Zaragoza · 2025</span>
+    </div>
+    <p class="desc">Administración y mantenimiento de sistemas informáticos. Resolución de incidencias.</p>
+  </div>
+
+  <div class="item">
+    <div class="row">
+      <span class="title">Técnico de Sistemas · IDEA Consulting</span>
+      <span class="meta">Zaragoza · 2023</span>
+    </div>
+    <p class="desc">Administración de sistemas, gestión de redes y comunicaciones, instalación de sistemas operativos y soporte a usuarios. Windows y Linux.</p>
+  </div>
+
+  <div class="item">
+    <div class="row">
+      <span class="title">Teleoperador para Stellantis · Teleperformance</span>
+      <span class="meta">Zaragoza · 2024 – 2025</span>
+    </div>
+    <p class="desc">Gestión y resolución de incidencias telefónicas, registro y seguimiento de solicitudes.</p>
+  </div>
+
+  <div class="item">
+    <div class="row">
+      <span class="title">Operario Logístico · Inditex</span>
+      <span class="meta">Zaragoza · 2025</span>
+    </div>
+    <p class="desc">Preparación de pedidos, control de mercancía y trabajo en equipo con objetivos diarios.</p>
+  </div>
+</section>
+
+<section>
+  <h2>Proyectos</h2>
+
+  <div class="item">
+    <div class="row">
+      <span class="title">HelpDesk Lite — sistema de gestión de incidencias IT (ITSM)</span>
+      <span class="meta">2026</span>
+    </div>
+    <p class="desc">API REST con FastAPI, SQLAlchemy y PostgreSQL, contenerizada con Docker. Cuatro roles con JWT, prioridad por matriz ITIL, SLAs con calendario laboral y pausas, motor de reglas y auditoría inmutable. 175 pruebas automatizadas y CI en cada push. Desplegado y accesible públicamente.</p>
+  </div>
+
+  <div class="item">
+    <div class="row">
+      <span class="title">Apsis — simulación de misiones espaciales (NASA Space Apps Challenge)</span>
+      <span class="meta">2026</span>
+    </div>
+    <p class="desc">Videojuego de planificación de misiones con gestión de masa, energía, presupuesto y comunicaciones, decisiones encadenadas e informe final. Equipo de cuatro personas en 48 horas; rol transversal entre diseño, lógica de simulación y arquitectura.</p>
+  </div>
+
+  <div class="item">
+    <div class="row">
+      <span class="title">MASTERS 3 — simulador de liga de fútbol para Android</span>
+      <span class="meta">2025 – 2026</span>
+    </div>
+    <p class="desc">Aplicación nativa en Kotlin con Jetpack Compose: plantillas, calendario, clasificación, playoffs y estadísticas. Seis pantallas y compilación verificada con Gradle.</p>
+  </div>
+</section>
+
+<section>
+  <h2>Formación</h2>
+
+  <div class="item">
+    <div class="row">
+      <span class="title">Grado Superior en Desarrollo de Aplicaciones Multiplataforma · Ilerna</span>
+      <span class="meta">Zaragoza · 2023 – 2026</span>
+    </div>
+  </div>
+  <div class="item">
+    <div class="row">
+      <span class="title">Grado Medio en Sistemas Microinformáticos y Redes · IES Pablo Serrano / IES Los Enlaces</span>
+      <span class="meta">Zaragoza · 2021 – 2023</span>
+    </div>
+  </div>
+  <div class="item">
+    <div class="row">
+      <span class="title">Educación Secundaria Obligatoria · IES Valdespartera</span>
+      <span class="meta">Zaragoza</span>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Competencias técnicas</h2>
+  <dl class="skills">
+    <div><dt>Backend</dt><dd>Python · FastAPI · SQLAlchemy · Java · SQL · APIs REST y JSON</dd></div>
+    <div><dt>Datos</dt><dd>PostgreSQL · Alembic · Firestore</dd></div>
+    <div><dt>Android</dt><dd>Kotlin · Jetpack Compose · Material 3 · Gradle</dd></div>
+    <div><dt>Sistemas</dt><dd>Windows · Linux · redes (TCP/IP, DNS, DHCP) · soporte técnico y resolución de incidencias</dd></div>
+    <div><dt>Herramientas</dt><dd>Docker · Git y GitHub · GitHub Actions · Office (Word, Excel, PowerPoint) · CRM</dd></div>
+    <div><dt>IA aplicada</dt><dd>Claude Code · agentes y desarrollo asistido por IA</dd></div>
+    <div><dt>Cloud</dt><dd>AWS · Google Cloud · Azure · máquinas virtuales y contenedores (formación inicial)</dd></div>
+  </dl>
+</section>
+
+<section>
+  <h2>Idiomas y certificados</h2>
+  <div class="two-col">
+    <ul class="plain">
+      <li><strong>Español</strong> — nativo</li>
+      <li><strong>Inglés</strong> — B2 (intermedio alto)</li>
+    </ul>
+    <ul class="plain">
+      <li>Claude Code in Action — Anthropic Education, 2026</li>
+      <li>Claude 101 · AI Fluency — Anthropic Education, 2026</li>
+      <li>Career Essentials in Generative AI — Microsoft &amp; LinkedIn, 2026</li>
+      <li>Formación intensiva en Cloud Computing — San Miguel / INAEM</li>
+    </ul>
+  </div>
+</section>
+
+
+
+</body>
+</html>
