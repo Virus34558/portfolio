@@ -33,7 +33,7 @@ export const projects: ProjectMeta[] = [
     id: "nasa",
     code: "PRJ-2026-0002",
     category: "Hackathon",
-    href: "https://github.com/Virus34558",
+    href: "https://apsis.solvrak.com/app/",
     state: "presented",
   },
 ];

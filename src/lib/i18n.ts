@@ -61,7 +61,7 @@ const es = {
       nasa: {
         name: "Apsis",
         desc: "Proyecto del NASA Space Apps Challenge 2026: videojuego de simulación de misiones espaciales con gestión de masa, energía, presupuesto y comunicaciones, decisiones encadenadas e informe final de misión. Cuatro personas, 48 horas.",
-        link: "Ver el proyecto",
+        link: "Abrir la demo",
         tags: ["Diseño", "Simulación", "Equipo de 4"],
       },
     },
@@ -170,7 +170,7 @@ const en: Dict = {
       nasa: {
         name: "Apsis",
         desc: "Built for the 2026 NASA Space Apps Challenge: a space mission simulation game covering mass, energy, budget and communications, with chained decisions and a final mission report. Four people, 48 hours.",
-        link: "View the project",
+        link: "Open the demo",
         tags: ["Design", "Simulation", "Team of 4"],
       },
     },
