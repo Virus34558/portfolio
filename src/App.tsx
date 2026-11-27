@@ -14,7 +14,7 @@ function Page() {
 
   return (
     <>
-      <a className="skip" href="#proyectos">
+      <a className="skip" href="#contenido">
         {t.nav.skip}
       </a>
       <Nav />

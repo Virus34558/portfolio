@@ -18,7 +18,7 @@ export function ShotBand() {
             src={panel}
             alt={t.shot.alt}
             width={1901}
-            height={928}
+            height={965}
             loading="lazy"
             decoding="async"
           />

@@ -32,6 +32,7 @@
 
 html {
   scroll-behavior: smooth;
+  color-scheme: dark;
   -webkit-text-size-adjust: 100%;
 }
 
@@ -188,7 +189,7 @@ img {
 }
 
 .lang button {
-  padding: 5px 9px;
+  padding: 8px 10px;
   border: 0;
   background: transparent;
   color: var(--muted);
@@ -288,7 +289,7 @@ h1 .t1 {
 }
 
 .btn:active {
-  transform: scale(0.975);
+  transform: scale(0.96);
 }
 
 .btn-primary {
@@ -312,6 +313,7 @@ h1 .t1 {
   font-family: var(--mono);
   font-size: 12.5px;
   color: var(--muted);
+  font-variant-numeric: tabular-nums;
 }
 
 .ledger > div {
@@ -416,6 +418,7 @@ section {
   font-weight: 600;
   line-height: 1.05;
   letter-spacing: -0.035em;
+  text-wrap: balance;
 }
 
 .sec-sub {
@@ -454,7 +457,6 @@ section {
   font-weight: 600;
   line-height: 1.02;
   letter-spacing: -0.04em;
-  transition: transform 0.35s var(--ease-out);
 }
 
 .pstatus {
@@ -573,6 +575,7 @@ section {
   list-style: none;
   font-family: var(--mono);
   font-size: 13px;
+  font-variant-numeric: tabular-nums;
 }
 
 .log li {
@@ -633,7 +636,7 @@ footer {
   margin-top: 54px;
   font-family: var(--mono);
   font-size: 11.5px;
-  color: #5f5f5f;
+  color: var(--muted);
 }
 
 /* ---------- revelado al hacer scroll ----------
@@ -709,15 +712,6 @@ footer {
     border-color: rgba(250, 250, 250, 0.4);
   }
 
-  .proj:hover .pname {
-    transform: translateX(6px);
-  }
-
-  .proj:hover .tech li {
-    border-color: rgba(250, 250, 250, 0.3);
-    color: var(--ink);
-  }
-
   .pfoot > a:hover {
     border-bottom-color: var(--ink);
   }
@@ -760,7 +754,6 @@ footer {
     transition: none;
   }
 
-  .proj:hover .pname,
   .btn:active,
   .btn-primary:hover {
     transform: none;

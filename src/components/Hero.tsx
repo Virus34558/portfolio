@@ -13,7 +13,7 @@ export function Hero() {
         </p>
 
         <h1 className="rise d2">
-          <span className="t1">{t.hero.title1}</span>
+          <span className="t1">{t.hero.title1}</span>{" "}
           <br />
           {t.hero.title2}
         </h1>
