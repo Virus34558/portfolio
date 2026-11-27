@@ -6,6 +6,7 @@ import { ShotBand } from "./components/ShotBand";
 import { Projects } from "./components/Projects";
 import { Stack } from "./components/Stack";
 import { Timeline } from "./components/Timeline";
+import { Credentials } from "./components/Credentials";
 import { Footer } from "./components/Footer";
 
 function Page() {
@@ -24,6 +25,7 @@ function Page() {
         <Projects />
         <Stack />
         <Timeline />
+        <Credentials />
       </main>
       <Footer />
     </>

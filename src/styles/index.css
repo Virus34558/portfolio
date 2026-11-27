@@ -567,8 +567,48 @@ section {
   color: var(--muted);
 }
 
-/* ---------- trayectoria ---------- */
+/* ---------- idiomas y certificados ---------- */
 
+.creds {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  gap: 0 40px;
+}
+
+.creds h3 {
+  margin: 0 0 14px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--muted);
+}
+
+.creds ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: var(--mono);
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+}
+
+.creds li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2px 18px;
+  padding: 11px 0;
+  border-top: 1px solid var(--rule);
+}
+
+.creds li:last-child {
+  border-bottom: 1px solid var(--rule);
+}
+
+.cred-meta {
+  color: var(--muted);
+}
+
+/* ---------- trayectoria ---------- */
 .log {
   margin: 0;
   padding: 0;
@@ -784,6 +824,7 @@ footer {
 
   section {
     padding: 64px 0;
+    scroll-margin-top: 32px;
   }
 
   .stack {
@@ -797,6 +838,11 @@ footer {
   .log li {
     grid-template-columns: minmax(0, 1fr);
     gap: 2px;
+  }
+
+  .creds {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 34px 0;
   }
 
   .log .where {

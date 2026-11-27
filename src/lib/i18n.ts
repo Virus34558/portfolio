@@ -77,9 +77,12 @@ const es = {
     areas: [
       { name: "Backend", tools: "Python · FastAPI · SQLAlchemy · Java · SQL" },
       { name: "Datos", tools: "PostgreSQL · Alembic · Firestore" },
-      { name: "Entorno", tools: "Docker · Git · GitHub Actions · Linux" },
+      { name: "Android", tools: "Kotlin · Jetpack Compose · Material 3 · Gradle" },
       { name: "Interfaz", tools: "TypeScript · React · HTML · CSS" },
-      { name: "Sistemas", tools: "Windows · Linux · TCP/IP · DNS · DHCP" },
+      {
+        name: "Herramientas y sistemas",
+        tools: "Docker · Git · GitHub Actions · Windows · Linux · TCP/IP · DNS · DHCP",
+      },
       { name: "IA aplicada", tools: "Claude Code · agentes · desarrollo asistido" },
     ],
     note: "Cloud (AWS, Google Cloud, Azure, máquinas virtuales y contenedores): formación inicial, no experiencia profesional.",
@@ -99,12 +102,30 @@ const es = {
         where: "Zaragoza",
       },
       { when: "may — jun 2025", what: "Técnico de Sistemas · ZLC", where: "Zaragoza" },
+      { when: "2025", what: "Operario Logístico · Inditex", where: "Zaragoza" },
       { when: "2024 — 2025", what: "Teleoperador · Teleperformance", where: "Zaragoza" },
+      { when: "2023", what: "Técnico de Sistemas · IDEA Consulting", where: "Zaragoza" },
       {
         when: "2021 — 2023",
-        what: "Grado Medio en Sistemas Microinformáticos y Redes · IES Pablo Serrano",
+        what: "Grado Medio en Sistemas Microinformáticos y Redes · IES Pablo Serrano / IES Los Enlaces",
         where: "Zaragoza",
       },
+    ],
+  },
+  credentials: {
+    title: "Idiomas y certificados",
+    sub: "Lo que puedo acreditar con un papel, no lo que me gustaría saber.",
+    langsTitle: "Idiomas",
+    certsTitle: "Certificados",
+    langs: [
+      { name: "Español", level: "nativo" },
+      { name: "Inglés", level: "B2 · intermedio alto" },
+    ],
+    certs: [
+      { name: "Claude Code in Action", issuer: "Anthropic Education", year: "2026" },
+      { name: "Claude 101 · AI Fluency", issuer: "Anthropic Education", year: "2026" },
+      { name: "Career Essentials in Generative AI", issuer: "Microsoft & LinkedIn", year: "2026" },
+      { name: "Formación intensiva en Cloud Computing", issuer: "San Miguel / INAEM", year: "" },
     ],
   },
   footer: {
@@ -186,9 +207,12 @@ const en: Dict = {
     areas: [
       { name: "Backend", tools: "Python · FastAPI · SQLAlchemy · Java · SQL" },
       { name: "Data", tools: "PostgreSQL · Alembic · Firestore" },
-      { name: "Tooling", tools: "Docker · Git · GitHub Actions · Linux" },
+      { name: "Android", tools: "Kotlin · Jetpack Compose · Material 3 · Gradle" },
       { name: "Interface", tools: "TypeScript · React · HTML · CSS" },
-      { name: "Systems", tools: "Windows · Linux · TCP/IP · DNS · DHCP" },
+      {
+        name: "Tools and systems",
+        tools: "Docker · Git · GitHub Actions · Windows · Linux · TCP/IP · DNS · DHCP",
+      },
       { name: "Applied AI", tools: "Claude Code · agents · AI-assisted development" },
     ],
     note: "Cloud (AWS, Google Cloud, Azure, virtual machines and containers): introductory training, not professional experience.",
@@ -208,12 +232,30 @@ const en: Dict = {
         where: "Zaragoza",
       },
       { when: "May — Jun 2025", what: "Systems Technician · ZLC", where: "Zaragoza" },
+      { when: "2025", what: "Warehouse Operative · Inditex", where: "Zaragoza" },
       { when: "2024 — 2025", what: "Customer Service Agent · Teleperformance", where: "Zaragoza" },
+      { when: "2023", what: "Systems Technician · IDEA Consulting", where: "Zaragoza" },
       {
         when: "2021 — 2023",
-        what: "Vocational Diploma in Microcomputer Systems and Networks · IES Pablo Serrano",
+        what: "Vocational Diploma in Microcomputer Systems and Networks · IES Pablo Serrano / IES Los Enlaces",
         where: "Zaragoza",
       },
+    ],
+  },
+  credentials: {
+    title: "Languages and certificates",
+    sub: "What I can back with a certificate, not what I would like to know.",
+    langsTitle: "Languages",
+    certsTitle: "Certificates",
+    langs: [
+      { name: "Spanish", level: "native" },
+      { name: "English", level: "B2 · upper-intermediate" },
+    ],
+    certs: [
+      { name: "Claude Code in Action", issuer: "Anthropic Education", year: "2026" },
+      { name: "Claude 101 · AI Fluency", issuer: "Anthropic Education", year: "2026" },
+      { name: "Career Essentials in Generative AI", issuer: "Microsoft & LinkedIn", year: "2026" },
+      { name: "Intensive Cloud Computing training", issuer: "San Miguel / INAEM", year: "" },
     ],
   },
   footer: {

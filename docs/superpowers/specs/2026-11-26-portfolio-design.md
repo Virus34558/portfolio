@@ -68,8 +68,9 @@ Escala: hero `clamp(46px, 11vw, 148px)` con tracking `-0.055em` y `line-height: 
 3. **Banda de captura** de HelpDesk Lite en marco de navegador.
 4. **Proyectos**: tres registros con código, nombre, estado, descripción, stack y enlace.
 5. **Con qué trabajo**: seis áreas en tres columnas, más la nota honesta sobre cloud.
-6. **Trayectoria**: cinco filas con fechas en mono.
-7. **Cierre**: correo a tamaño de cartel y enlaces.
+6. **Trayectoria**: siete filas con fechas en mono.
+7. **Idiomas y certificados**: dos columnas, lenguas y certificados con emisor y año.
+8. **Cierre**: correo a tamaño de cartel y enlaces.
 
 ## Movimiento
 
